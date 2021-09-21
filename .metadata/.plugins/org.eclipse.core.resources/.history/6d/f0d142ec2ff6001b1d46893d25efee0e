@@ -1,0 +1,10 @@
+package com.thigpen.phone;
+
+public class PhoneTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone phone1 = new Phone(String "10.5", int 100, String "verzion", String "ole ole ole");
+	}
+
+}

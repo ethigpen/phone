@@ -1,0 +1,24 @@
+package com.thigpen.phone;
+
+public class Iphone extends Phone{
+	
+//	constructor
+	public Iphone(String versionNumber, int batteryPercentage, String carrier, String ringTone) {
+        super(versionNumber, batteryPercentage, carrier, ringTone);
+    }
+    @Override
+    public String ring() {
+        this.setRingTone("ring ring ring");
+    }
+    @Override
+    public String unlock() {
+        // your code here
+    }
+    @Override
+    public void displayInfo() {
+        String info = String.format("Iphone version %s from %s",this.getVersionNumber(), this.getCarrier());
+        System.out.println(info);
+    }
+		
+
+}

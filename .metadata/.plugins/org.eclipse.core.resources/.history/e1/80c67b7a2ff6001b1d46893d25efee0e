@@ -1,0 +1,17 @@
+package com.thigpen.phone;
+
+public abstract class Phone {
+//member variables
+	private String versionNumber;
+	private int batteryPercentage;
+    private String carrier;
+    private String ringTone;
+ 
+//    constructor
+    public Phone(String versionNumber, int batteryPercentage, String carrier, String ringTone){
+        this.versionNumber = versionNumber;
+        this.batteryPercentage = batteryPercentage;
+        this.carrier = carrier;
+        this.ringTone = ringTone;
+    }
+}
